@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+    <div class="container_box">
+        <div class="card">
+            <div class="form_box" id="card">
+                <div class="card_front">
+                    <h2>LOGIN</h2>
+                    <form>
+                        <input type="hidden" name="access_key" value="95d645f3-5df3-4ad9-a3de-310a4d8524ae">
+                     <input type="email" class="input-box" placeholder="Your email id" required>
+                     <input type="password" class="input-box" placeholder="password" required>
+                        <button type="submit" class="submit_btn">Submit</button>
+                        <input type="checkbox"><span>Remember me</span>  
+                    </form>
+                    <button type="button" class="button_btn" onclick="openRegister()">I'm new here</button>
+                    <a href="">Forgot Password</a>
+                </div>
+                <div class="card_back">
+                    <h2>REGISTER</h2>
+                        <form >
+                        <input type="text" class="input-box" placeholder="Your Name" required>
+                        <input type="email" class="input-box" placeholder="Your email id" required>
+                        <input type="password" class="input-box" placeholder="password" required>
+                        <button type="submit" class="submit_btn">Submit</button>
+                        <input type="checkbox"><span>Remember me</span>  
+                    </form>
+                    <button type="button" class="button_btn" onclick="openLogin()">I've an account</button>
+                    <a href="">Forgot Password</a>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
